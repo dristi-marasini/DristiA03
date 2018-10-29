@@ -1,0 +1,59 @@
+<% include header %>
+<link rel="stylesheet" href="css/game.css">
+<title>TicTacToe</title>
+<script src="js/game.js" defer></script>
+<header>
+  <h1>Tic Tac Toe</h1>
+ 
+</header>
+<p><b>It’s time to Play.</b></p>
+<div id = "who-won" class="who-won"></div>
+
+<main>
+  <section id="upper-left"> </section>
+  <section id="upper-mid"> </section>
+  <section id="upper-right"> </section>
+
+  <section id="center-left"> </section>
+  <section id="center-mid"> </section>
+  <section id="center-right"> </section>
+
+  <section id="lower-left"> </section>
+  <section id="lower-mid"> </section>
+  <section id="lower-right"> </section>
+
+</main>
+<button id="playAgain" class="button btn-success btn-lg">Play Again</button>
+<aside>
+  <h1>Specification</h1>
+  <section>
+    <ul>
+      <li>Uses full-width header and footer.</li>
+      <li>Uses main 3 x 3 css grid, each with a section.</li>
+      <li>When user clicks a childless section, it adds an X.</li>
+      <li>If the move was valid, it selects a section for the computer and adds an O.</li>
+    </ul>
+    <ol>
+      <li>Improve the computer's selection algorithm.</li>
+      <li>Add an algorithm to check for a winner.</li>
+      <li>If winner, announce the winner and end the game.</li>
+      <li>Add "Play again?" button to clear the board.</li>
+      <li>Combine AddX and AddO into a single function.</li>
+    </ol>
+  </section>
+</aside>
+
+  <h4>
+    <span>&copy Professor Case 2018</span>
+    <span>&diams;</span>
+    <a href="https://github.com/profcase/web-tic-tac-toe">Source</a>
+    <span>&diams;</span>
+    <a href="https://profcase.github.io/web-tic-tac-toe/">Demo</a>
+  </h4>
+  <h3 class="aside-header"><u>Connect Via</u></h3>
+  <p id="link">
+  <a href="https://www.linkedin.com/in/dristi-marasini-bb455616a/"><u>LinkedIn</u></a>
+  </p>
+  </aside>
+  </main>
+<% include footer %>

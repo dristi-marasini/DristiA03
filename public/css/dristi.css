@@ -1,0 +1,139 @@
+.myHeader{
+	color:black ;
+	background-color:grey;
+	font-style : normal;
+	font-family:"Times New Roman", Times	, serif;
+	border-style: groove;
+	 border-radius: 35px;
+	 margin: 5px 0px 10px 15px;
+	 text-indent: 10%;
+	 margin-left:5%;
+	 margin-right:auto;
+	 
+}
+body {
+	background-image: url("Grey-paper.png");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact{
+	font-size:150%;
+	padding:100px;
+	margin-left: 0%;
+	margin: 5px 5px 10px 15px;
+	border:1px solid #4CAF50;
+	border-color:black;
+	background-color:burlywood;
+}
+.contInfo{
+	font-size:200%;
+}
+.linkClass{
+	margin: 5px 5px 10px 45px;
+	text-indent: 20%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.myFooter{
+	color: yellowgreen;
+	background-color :black ;
+	font-style : oblique;
+	font-family:"Times New Roman", Times, serif;
+	text-indent: center;
+	margin: 5px 5px 10px 45px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.myVideo{
+	margin: 5px 5px 10px 15px;
+	border:4px solid  black;
+	padding:40px;
+	background-color :lightgrey;
+	margin-left: 25%;
+}
+
+.intro{
+	color:black;
+	text-indent: 30%;
+	font-size:500%;
+}
+.section-list{
+	color:red;
+}
+#current-section {
+	 color: black;
+	  margin: 5px 5px 10px 15px;
+	  border:1px solid #4CAF50;
+	  border-color:black;
+	  background-color:rgb(162, 189, 128);
+	  padding:40px;
+}
+
+#past-section {
+	 color: black;
+	  margin: 5px 5px 10px 15px;
+	  border:1px solid #4CAF50;
+	  border-color:black;
+	  background-color:rgb(196, 192, 187);
+	    padding:40px;
+}
+#future-section {
+	 color: black;
+	  margin: 5px 5px 10px 15px;
+	  border:1px solid #4CAF50;
+	  border-color:black;
+	  background-color:rgb(192, 180, 243);
+	  padding:40px;
+}
+#myschedule {
+	 color: black;
+	  margin: 5px 5px 10px 15px;
+	  border:1px solid #4CAF50;
+	  border-color:black;
+	  background-color:#E5D76F;
+	  padding:40px;
+}
+.section-header{
+	font-size:200%;
+	padding:20px;
+	color: black;
+
+}
+
+
+
+
+.aside-header{
+	font-size:180%;
+	padding:10px;
+color:rgb(192, 37, 37);
+font-style: italic;
+}
+#link{
+font-size:220%;
+margin-left:5px;
+color:blue;
+font-style:italic; 
+}
+.my-image{
+	border-radius:  50%;
+	margin-left: 10%;
+}
+.my-image:hover {
+
+	transform: scale(2);
+	
+	}
+	#target{
+		margin-left:10%;
+	}
+	p{
+		font-family: courier;
+	}
+	h1{
+		font-size: 200%;
+	}
